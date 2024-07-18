@@ -1,7 +1,8 @@
-#include "Poco/Thread.h"
-#include "Poco/Runnable.h"
+#include "poco/Thread.h"
 #include <iostream>
+
 using namespace Poco;
+
 
 class HelloRunnable:public Runnable{
     virtual void run(){
